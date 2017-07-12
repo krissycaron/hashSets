@@ -17,10 +17,10 @@ namespace hashSet
                 // Console.WriteLine(showroom.Count);
 
                 showroom.Add("Audi");
-                foreach (string carz in showroom){
-                    Console.WriteLine($"{carz}");
+                // foreach (string carz in showroom){
+                //     Console.WriteLine($"{carz}");
                 
-                }
+                // }
             
             HashSet<string> usedCars = new HashSet<string>();
                 usedCars.Add("Ford");
@@ -28,9 +28,24 @@ namespace hashSet
                 
 
             showroom.UnionWith(usedCars);
+                // foreach (string carz in showroom){
+                //     Console.WriteLine($"{carz}");
+                // }
+
+            HashSet<string> junkYard = new HashSet <string>();
+                junkYard.Add("Dodge");
+                junkYard.Add("Kia");
+                junkYard.Add("Cheverolet");
+                junkYard.Add("Bentley");
+                junkYard.Add("Geo");
+                junkYard.Add("Peugot");
+
+
+            showroom.IntersectWith(junkYard);
                 foreach (string carz in showroom){
                     Console.WriteLine($"{carz}");
                 }
+
         }
     }
 }
