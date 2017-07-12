@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace hashSet
 {
@@ -6,7 +7,13 @@ namespace hashSet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+           HashSet<string> showroom= new HashSet<string>();
+            showroom.Add("Audi");
+            showroom.Add("Kia");
+            showroom.Add("Cheverolet");
+            showroom.Add("Mazada");
+
         }
     }
 }
