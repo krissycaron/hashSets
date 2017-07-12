@@ -20,7 +20,7 @@ dotnet restore
 1. Print to the console how many cars are in your show room.
 1. Pick one of the items in your show room and add it to the set again.
 1. Print your showroom again, and notice how there's still only one representation of that model in there.
-1. Create another set named `UsedLot` and add two more car model strings to it.
+1. Create another HashSet named `UsedLot` and add two more car model strings to it.
 1. Use the `UnionWith()` method on `Showroom` to add in the two models you added to `UsedLot`.
 1. You've sold one of your cars. Remove it from the set with the `Remove()` method.
 
