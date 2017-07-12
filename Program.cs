@@ -42,7 +42,22 @@ namespace hashSet
 
 
             showroom.IntersectWith(junkYard);
-                foreach (string carz in showroom){
+                // foreach (string carz in showroom){
+                //     Console.WriteLine($@"{carz}
+                    
+                    
+                //     ");
+                // }
+            // The above looks at both the showroom and junkyard ... it will then pull the intersecting data only.
+            // Which is the Kia and Chevrolet. Then, after that runs, the unionWith below takes the cars that intersect, 
+            //and joins them with the other junkyard cars.
+            showroom.UnionWith(junkYard);
+            
+            //  foreach (string carz in showroom){
+            //         Console.WriteLine($"{carz}");
+            //     }
+            showroom.Remove("Peugot");
+                 foreach (string carz in showroom){
                     Console.WriteLine($"{carz}");
                 }
 
