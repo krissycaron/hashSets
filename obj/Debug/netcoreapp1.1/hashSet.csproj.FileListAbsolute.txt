@@ -1,0 +1,8 @@
+/Users/kristincaron/workspace/serverSide/exercises/hashSet/bin/Debug/netcoreapp1.1/hashSet.deps.json
+/Users/kristincaron/workspace/serverSide/exercises/hashSet/bin/Debug/netcoreapp1.1/hashSet.runtimeconfig.json
+/Users/kristincaron/workspace/serverSide/exercises/hashSet/bin/Debug/netcoreapp1.1/hashSet.runtimeconfig.dev.json
+/Users/kristincaron/workspace/serverSide/exercises/hashSet/bin/Debug/netcoreapp1.1/hashSet.dll
+/Users/kristincaron/workspace/serverSide/exercises/hashSet/bin/Debug/netcoreapp1.1/hashSet.pdb
+/Users/kristincaron/workspace/serverSide/exercises/hashSet/obj/Debug/netcoreapp1.1/hashSet.AssemblyInfo.cs
+/Users/kristincaron/workspace/serverSide/exercises/hashSet/obj/Debug/netcoreapp1.1/hashSet.dll
+/Users/kristincaron/workspace/serverSide/exercises/hashSet/obj/Debug/netcoreapp1.1/hashSet.pdb
